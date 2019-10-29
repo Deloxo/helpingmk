@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Math Pop Quiz</title>
+    <style>
+        #page {
+            width: 80%;
+            margin: auto;
+            background-color: lightgray;
+        }
+
+        body {
+            background-color: darkgray;
+        }
+
+        div {
+            box-sizing: border-box;
+            justify-content: center;
+        }
+
+        #header {
+            height: 103px;
+            margin: -2px;
+            text-align: center;
+            border: solid black 1px;
+        }
+
+        #body {
+            margin: -2px;
+            text-align: center;
+            border: solid black 1px;
+        }
+
+        #content {
+            height: 75px;
+            margin: -2px;
+            text-align: center;
+            border: solid black 1px;
+        }
+
+        .success {
+            position: relative;
+            top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="page">
+        <div id="header">
+            <h2>Math For Noobs</h2>
+            <p>Le site intéractif pour les enfants</p>
+        </div>
+        <div id="body">
+            <div id="content">
+                <div class="question">Which one is right?</div>
+                <div style="display: flex;">
+                    <div>
+                        <input type="checkbox" onclick="checkForInput(1, 0)">right answer</input><br>
+                        <input type="checkbox" onclick="checkForInput(3, 0)">right answer</input>
+                    </div>
+                    <div>
+                        <input type="checkbox" onclick="checkForInput(2, 0)">right answer</input><br>
+                        <input type="checkbox" onclick="checkForInput(4, 0)">right answer</input>
+                    </div>
+                </div>
+                <div class="success"></div>
+            </div>
+            <div id="content">
+                <div class="question">Which one is right?</div>
+                <div style="display: flex;">
+                    <div>
+                        <input type="checkbox" onclick="checkForInput(1, 1)">right answer</input><br>
+                        <input type="checkbox" onclick="checkForInput(3, 1)">right answer</input>
+                    </div>
+                    <div>
+                        <input type="checkbox" onclick="checkForInput(2, 1)">right answer</input><br>
+                        <input type="checkbox" onclick="checkForInput(4, 1)">right answer</input>
+                    </div>
+                </div>
+                <div class="success"></div>
+            </div>
+                <div id="content">
+                    <div class="question">Which one is right?</div>
+                    <div style="display: flex;">
+                        <div>
+                            <input type="checkbox" onclick="checkForInput(1, 2)">right answer</input><br>
+                            <input type="checkbox" onclick="checkForInput(3, 2)">right answer</input>
+                        </div>
+                        <div>
+                            <input type="checkbox" onclick="checkForInput(2, 2)">right answer</input><br>
+                            <input type="checkbox" onclick="checkForInput(4, 2)">right answer</input>
+                        </div>
+                    </div>
+                    <div class="success"></div>
+                </div>
+                <div id="content">
+                    <div class="question">Which one is right?</div>
+                    <div style="display: flex;">
+                        <div>
+                            <input type="checkbox" onclick="checkForInput(1, 3)">right answer</input><br>
+                            <input type="checkbox" onclick="checkForInput(3, 3)">right answer</input>
+                        </div>
+                        <div>
+                            <input type="checkbox" onclick="checkForInput(2, 3)">right answer</input><br>
+                            <input type="checkbox" onclick="checkForInput(4, 3)">right answer</input>
+                        </div>
+                    </div>
+                    <div class="success"></div>
+                </div>
+                <div id="content">
+                    <div class="question">Which one is right?</div>
+                    <div style="display: flex;">
+                        <div>
+                            <input type="checkbox" onclick="checkForInput(1, 4)">right answer</input><br>
+                            <input type="checkbox" onclick="checkForInput(3, 4)">right answer</input>
+                        </div>
+                        <div>
+                            <input type="checkbox" onclick="checkForInput(2, 4)">right answer</input><br>
+                            <input type="checkbox" onclick="checkForInput(4, 4)">right answer</input>
+                        </div>
+                    </div>
+                    <div class="success"></div>
+                </div>
+                <div id="content">
+                    <div class="question">Which one is right?</div>
+                    <div style="display: flex;">
+                        <div>
+                            <input type="checkbox" onclick="checkForInput(1, 5)">right answer</input><br>
+                            <input type="checkbox" onclick="checkForInput(3, 5)">right answer</input>
+                        </div>
+                        <div>
+                            <input type="checkbox" onclick="checkForInput(2, 5)">right answer</input><br>
+                            <input type="checkbox" onclick="checkForInput(4, 5)">right answer</input>
+                        </div>
+                    </div>
+                    <div class="success"></div>
+                </div>
+                <div id="content">
+                    <div class="question">Which one is right?</div>
+                    <div style="display: flex;">
+                        <div>
+                            <input type="checkbox" onclick="checkForInput(1, 6)">right answer</input><br>
+                            <input type="checkbox" onclick="checkForInput(3, 6)">right answer</input>
+                        </div>
+                        <div>
+                            <input type="checkbox" onclick="checkForInput(2, 6)">right answer</input><br>
+                            <input type="checkbox" onclick="checkForInput(4, 6)">right answer</input>
+                        </div>
+                    </div>
+                    <div class="success"></div>
+                </div>
+                <div id="content">
+                    <div class="question">Which one is right?</div>
+                    <div style="display: flex;">
+                        <div>
+                            <input type="checkbox" onclick="checkForInput(1, 7)">right answer</input><br>
+                            <input type="checkbox" onclick="checkForInput(3, 7)">right answer</input>
+                        </div>
+                        <div>
+                            <input type="checkbox" onclick="checkForInput(2, 7)">right answer</input><br>
+                            <input type="checkbox" onclick="checkForInput(4, 7)">right answer</input>
+                        </div>
+                    </div>
+                    <div class="success"></div>
+                </div>
+                <div id="content">
+                    <div class="question">Which one is right?</div>
+                    <div style="display: flex;">
+                        <div>
+                            <input type="checkbox" onclick="checkForInput(1, 8)">right answer</input><br>
+                            <input type="checkbox" onclick="checkForInput(3, 8)">right answer</input>
+                        </div>
+                        <div>
+                            <input type="checkbox" onclick="checkForInput(2, 8)">right answer</input><br>
+                            <input type="checkbox" onclick="checkForInput(4, 8)">right answer</input>
+                        </div>
+                    </div>
+                    <div class="success"></div>
+                </div>
+                <div id="content">
+                    <div class="question">Which one is right?</div>
+                    <div style="display: flex;">
+                        <div>
+                            <input type="checkbox" onclick="checkForInput(1, 9)">right answer</input><br>
+                            <input type="checkbox" onclick="checkForInput(3, 9)">right answer</input>
+                        </div>
+                        <div>
+                            <input type="checkbox" onclick="checkForInput(2, 9)">right answer</input><br>
+                            <input type="checkbox" onclick="checkForInput(4, 9)">right answer</input>
+                        </div>
+                    </div>
+                    <div class="success"></div>
+                </div>
+                <div id="content">
+                    <div class="question">Which one is right?</div>
+                    <div style="display: flex;">
+                        <div>
+                            <input type="checkbox" onclick="checkForInput(1, 10)">right answer</input><br>
+                            <input type="checkbox" onclick="checkForInput(3, 10)">right answer</input>
+                        </div>
+                        <div>
+                            <input type="checkbox" onclick="checkForInput(2, 10)">right answer</input><br>
+                            <input type="checkbox" onclick="checkForInput(4, 10)">right answer</input>
+                        </div>
+                    </div>
+                    <div class="success"></div>
+                </div>
+                <div id="content">
+                    <div class="question">Which one is right?</div>
+                    <div style="display: flex;">
+                        <div>
+                            <input type="checkbox" onclick="checkForInput(1, 11)">right answer</input><br>
+                            <input type="checkbox" onclick="checkForInput(3, 11)">right answer</input>
+                        </div>
+                        <div>
+                            <input type="checkbox" onclick="checkForInput(2, 11)">right answer</input><br>
+                            <input type="checkbox" onclick="checkForInput(4, 11)">right answer</input>
+                        </div>
+                    </div>
+                    <div class="success"></div>
+                </div>
+                <div id="content">
+                    <div class="question">Which one is right?</div>
+                    <div style="display: flex;">
+                        <div>
+                            <input type="checkbox" onclick="checkForInput(1, 11)">right answer</input><br>
+                            <input type="checkbox" onclick="checkForInput(3, 11)">right answer</input>
+                        </div>
+                        <div>
+                            <input type="checkbox" onclick="checkForInput(2, 11)">right answer</input><br>
+                            <input type="checkbox" onclick="checkForInput(4, 11)">right answer</input>
+                        </div>
+                    </div>
+                    <div class="success"></div>
+                </div>
+            </div>
+        </div>
+        <script>
+            var questions = [];
+            var answers = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1];
+
+            function checkForInput(p, x) {
+                if (answers[x] == 1) {
+                    if (p == 1) {
+                        questions[x] = true;
+                    }
+                    if (p == 2) {
+                        questions[x] = false;
+                    }
+                    if (p == 3) {
+                        questions[x] = false;
+                    }
+                    if (p == 4) {
+                        questions[x] = false;
+                    }
+                }
+                if (answers[x] == 2) {
+                    if (p == 1) {
+                        questions[x] = false;
+                    }
+                    if (p == 2) {
+                        questions[x] = true;
+                    }
+                    if (p == 3) {
+                        questions[x] = false;
+                    }
+                    if (p == 4) {
+                        questions[x] = false;
+                    }
+                }
+                if (answers[x] == 3) {
+                    if (p == 1) {
+                        questions[x] = false;
+                    }
+                    if (p == 2) {
+                        questions[x] = false;
+                    }
+                    if (p == 3) {
+                        questions[x] = true;
+                    }
+                    if (p == 4) {
+                        questions[x] = false;
+                    }
+                }
+                if (answers[x] == 4) {
+                    if (p == 1) {
+                        questions[x] = false;
+                    }
+                    if (p == 2) {
+                        questions[x] = false;
+                    }
+                    if (p == 3) {
+                        questions[x] = false;
+                    }
+                    if (p == 4) {
+                        questions[x] = true;
+                    }
+                }
+
+
+                if (questions[x] == true) {
+                    document.getElementsByClassName("success")[x].innerHTML = "&nbsp;&nbsp;Right Answer!";
+                    document.getElementsByTagName("INPUT")[0 + (x * 4)].disabled = true;
+                    document.getElementsByTagName("INPUT")[1 + (x * 4)].disabled = true;
+                    document.getElementsByTagName("INPUT")[2 + (x * 4)].disabled = true;
+                    document.getElementsByTagName("INPUT")[3 + (x * 4)].disabled = true;
+                }
+                if (questions[x] == false) {
+                    document.getElementsByClassName("success")[x].innerHTML = "&nbsp;&nbsp;Wrong Answer!";
+                    document.getElementsByTagName("INPUT")[0 + (x * 4)].disabled = true;
+                    document.getElementsByTagName("INPUT")[1 + (x * 4)].disabled = true;
+                    document.getElementsByTagName("INPUT")[2 + (x * 4)].disabled = true;
+                    document.getElementsByTagName("INPUT")[3 + (x * 4)].disabled = true;
+                }
+            }
+        </script>
+</body>
+
+</html>
